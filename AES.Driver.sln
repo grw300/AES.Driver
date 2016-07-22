@@ -3,6 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AES.Driver", "AES.Driver\AES.Driver.csproj", "{6BB3C822-679C-4660-923B-EF282E53CDD3}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0FDBF072-70F4-4F17-B443-64184E47F962}"
+	ProjectSection(SolutionItems) = preProject
+		BouncyCastle.Crypto.dll = BouncyCastle.Crypto.dll
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
